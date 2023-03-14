@@ -1,0 +1,122 @@
+1.WAP to print numbers between 1-10 numbers:
+
+
+Begin
+numeric num=1
+input num
+do
+{
+  print(num)
+  num++
+}
+while(num<=10);
+End
+
+2.WAP to print numbers between 1-n numbers:
+
+
+Begin
+numeric num=1
+input num
+do
+{
+  print(num)
+  num++
+}
+while(num<=n);
+End
+ 
+
+3.WAP to print numbers between 10-1 numbers:
+
+Begin
+numeric num=10
+input num
+do
+{
+  print(num)
+  num--
+}
+while(num<=10);
+End
+
+4.WAP to print even numbers between 1-n numbers:
+
+
+Begin
+numeric n,i=1
+print("Enter then value")
+input n
+do
+{
+   if(i%2==0)
+   {
+       print(i)
+    }
+  i++;
+}
+while(i<=n);
+End
+
+5.WAP to print odd numbers between 1-n numbers:
+
+Begin
+numeric n,i=1
+print("Enter then value")
+input n
+do
+{
+   if(i%2!=0)
+   {
+       print(i)
+    }
+  i++;
+}
+while(i<=n);
+End
+
+
+WAP to print sum of 1-n numbers:
+
+Begin
+numeric sum=0,num=0,i=1
+print("Enter the num to find sum")
+input num
+do
+{
+  sum=sum+i;
+   i++;
+}
+while(i<=n);
+    print("Sum of n numbers is:",sum);
+End 
+
+
+
+WAP to print sum of even numbers between 1-n numbers:
+
+
+Begin
+numeric esum=0,osum=0n,i=1
+print("Enter the n to find sum of even numbers")
+input n
+do
+{
+   if(i%2==0)
+  {
+    esum=esum+i;
+   } 
+  else 
+    {
+      osum=osum+i;
+     }
+   i++
+ } 
+while(i<=n);
+    print("Sum of even numbers numbers is:",esum);
+    print("Sum of odd numbers numbers is:",osum);
+End
+
+
+
+

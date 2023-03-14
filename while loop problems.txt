@@ -1,0 +1,206 @@
+1.WAP to print 1-10 numbers:
+
+Begin
+numeric num=1
+input num
+ while(num<=10)
+  {
+    print(num)
+     num++;
+   }
+End
+
+
+2.WAP to print 10-1 numbers:
+  
+Begin
+numeric num=10
+input num
+ while(num<=10)
+  {
+    print(num)
+     num--;
+   }
+End
+
+
+3.WAP to print 1-n numbers:
+
+Begin
+numeric num=1
+input num
+ while(num<=10)
+  {
+    print(num)
+     num++;
+   }
+End
+
+4.WAP to print even numbers between 1-n numbers:
+
+Begin
+numeric n,i=1
+print("Enter the number")
+input n
+ while(i<=n)
+  {
+     if(i%2==0)
+      {
+
+        print(i)
+       }
+     i++;
+   }
+End
+
+
+5.WAP to print odd numbers between 1-n numbers:
+
+
+Begin
+numeric n,i=1
+print("Enter the number")
+input n
+ while(i<=n)
+  {
+     if(i%2!=0)
+      {
+
+        print(i)
+       }
+     i++;
+   }
+End
+
+
+6.WAP to accept start and stop values & print between values:
+
+
+Begin
+numeric start,stop
+print("Enter the start value")
+print("Enter the stop value")
+if(start<stop)
+{
+  while(start<=stop)
+{
+    print("The values are")
+    start++
+}
+}
+else
+{
+  while(start>=stop)
+ {
+    print("The values are")
+    start--
+ }
+
+}
+End
+
+
+7.WAP to accept start and stop values & print between values:
+
+
+Begin
+numeric start,stop
+print("Enter the start value")
+print("Enter the stop value")
+if(start<stop)
+{
+  while(start<=stop)
+{
+    print("The values are")
+    start++
+}
+}
+else
+{
+  while(start>=stop)
+ {
+    print("The values are")
+    start--
+ }
+
+}
+End
+
+8.WAP to print factors of a given number or not:
+
+ Begin
+numeric num,i=1,count=0
+print("Enter the number")
+input num
+ while(i<=num/2)
+{  
+   if(num%i==0)
+  {
+    count++
+   }
+ i++
+} 
+ print("Number of factors are:",count)
+End
+
+ 
+9.WAP to check the given number is prime number or not:
+   
+
+Begin
+numeric num,i=1,count=0
+print("Enter the number")
+input num
+while(num>=1)
+{
+   if(num%i==0)
+  {
+    count++
+    i++
+   }
+ else if(count==2)
+  {
+   print("The number is prime")
+  }
+else
+ { 
+    print("The number is not a prime")
+  }
+
+}
+End 
+
+
+10.WAP to check the given number is perfect or not:
+
+
+Begin
+numeric num,i=1,sum=0
+input num
+num=n
+print("Enter the number")
+while(i<=num/2)
+ {
+     if(num%i==0)
+   {
+       sum=sum+i
+    }
+   i++
+  }
+     if(sum=n)
+   {
+       print("Given number is perfect number")
+    }
+     else
+   {
+      print("Given number is not perfect number")
+    }
+End
+
+
+
+
+
+
+
+
